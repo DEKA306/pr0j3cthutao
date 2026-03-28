@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hutanari - 라이트</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-mode">
+    <div class="main-wrapper">
+        <nav class="main-nav">
+            <a href="home.html" class="nav-btn">홈</a>
+            <a href="light.html" class="nav-btn active">라이트</a>
+            <a href="telling-main.html" class="nav-btn">커뮤니티</a>
+            <a href="siganpyo.html" class="nav-btn">시간표</a>
+            <a href="meal.html" class="nav-btn">급식</a>
+        </nav>
+
+        <div class="container">
+            <header>
+                <h1>⚡ 라이트</h1>
+                <p>가장 빠른 학교 소식 (익명)</p>
+            </header>
+
+            <div class="write-section" style="margin-top: 20px;">
+                <textarea id="post-input" placeholder="지금 무슨 일이 있나요?"></textarea>
+                <button id="post-btn" class="nav-btn active" style="width: 100%; margin-top: 10px; cursor: pointer;">올리기</button>
+            </div>
+
+            <hr style="border: 1px solid var(--color-border); margin: 25px 0;">
+
+            <div id="post-feed">
+                </div>
+        </div>
+    </div>
+    <script src="light.js"></script>
+</body>
+</html>

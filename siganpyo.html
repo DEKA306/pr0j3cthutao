@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hutanari - 1학년 시간표</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-mode"> 
+    <div class="main-wrapper">
+        <nav class="main-nav">
+            <a href="home.html" class="nav-btn">홈</a>
+            <a href="light.html" class="nav-btn">라이트</a> <a href="telling-main.html" class="nav-btn">썰</a> <a href="siganpyo.html" class="nav-btn active">시간표</a>
+            <a href="meal.html" class="nav-btn">급식</a>
+        </nav>
+
+        <div class="container">
+            <header>
+                <h1>구로고 시간표</h1>
+                <p>1학년 전용 서비스</p>
+            </header>
+            
+            <div class="selector-section">
+                <select id="class-select"></select>
+                <button id="view-btn">조회하기</button>
+            </div>
+
+            <div class="timetable" id="timetable-grid">
+                <div class="empty-msg">반을 선택하고 조회 버튼을 눌러주세요.</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="siganpyo.js"></script>
+</body>
+</html>
